@@ -5,7 +5,7 @@ public class PrimeOrNot {
     Scanner sc = new Scanner(System.in);
     int n = sc.nextInt();
     int flag = 0;
-    for(int i = 2; i < Math.sqrt(n); i++)
+    for(int i = 2; i <= Math.sqrt(n); i++)
     {
         if(n % i == 0)
         {
