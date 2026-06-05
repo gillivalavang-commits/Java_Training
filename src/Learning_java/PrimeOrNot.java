@@ -13,6 +13,7 @@ public class PrimeOrNot {
             break;
         }
     }
+    //check condition
     if(flag == 0) {
         System.out.print("Prime");
     }
