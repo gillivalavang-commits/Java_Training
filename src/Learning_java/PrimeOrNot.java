@@ -13,7 +13,12 @@ public class PrimeOrNot {
             break;
         }
     }
-    if(flag == 0) System.out.print("Prime");
-    else System.out.print("Not a prime");
+    if(flag == 0) {
+        System.out.print("Prime");
+    }
+    else
+    {
+        System.out.print("Not a prime");
+    }
   }
 }
